@@ -500,47 +500,47 @@ Here is an example of an <img> tag in HTML: <br>
     
       <fieldset>
         <table cellpadding="10px" style="align-items: center;">
-          <legend>Personal Details</legend>
+          <legend title="All Your Personal Details">Personal Details</legend>
        <tr>
-        <td><label for="Name">Name</label></td>
-        <td><input type="text" name="" id="" placeholder="Your Name"></td>
+        <td><label for="Name" accesskey="n" tabindex="1">Name</label></td>
+        <td><input type="text" name="" id="Name" placeholder="Your Name"></td>
        </tr>
         <tr>
           <td>
-            <label for="Password">Password</label>
+            <label for="Password" accesskey="p"  tabindex="2">Password</label>
           </td>
-          <td> <input type="password" name="" id="">
+          <td> <input type="password" name="" id="Password">
           </td>
         </tr>
         <tr>
           <td>
-            <label for="Gender">Gender</label>
+            <label for="Gender" accesskey="g"  tabindex="3">Gender</label>
           </td>
           <td>
-            <input type="radio" name="Gender" id="Male">
+            <input type="radio" name="Gender" id="Gender">
              <label for="Male" >Male</label>
-             <input type="radio" name="Gender" id="Female">
+             <input type="radio" name="Gender" id="Gender">
              <label for="Female">Female</label>
              
           </td>
         </tr>
         <tr>
           <td>
-            <label for="Hobby">Hobby</label>
+            <label for="Hobby" accesskey="h"  tabindex="4">Hobby</label>
           </td>
           <td>
             <label for="Books">Books</label>
-            <input type="checkbox" name="Books" id="Books">
+            <input type="checkbox" name="Books" id="Hobby">
             <label for="Travelling">Travelling</label>
-            <input type="checkbox" name="Travelling" id="Travelling">
+            <input type="checkbox" name="Travelling" id="Hobby">
             <label for="Music">Music</label>
-            <input type="checkbox" name="Music" id="Music">
+            <input type="checkbox" name="Music" id="Hobby">
           </td>
 
         </tr>
         <tr>
           <td>
-            <label for="Country">Country</label>
+            <label for="Country" accesskey="c"  tabindex="5">Country</label>
           </td>
           <td>
             <select name="Country" id="Country">
@@ -552,7 +552,7 @@ Here is an example of an <img> tag in HTML: <br>
         </tr>
         <tr>
           <td>
-            <label for="Message">Message</label>
+            <label for="Message" accesskey="m"  tabindex="6">Message</label>
           </td>
           <td>
             <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
@@ -560,10 +560,10 @@ Here is an example of an <img> tag in HTML: <br>
         </tr>
         <tr>
           <td>
-            <input type="submit" style="background-color: rgb(124, 126, 10); border: none;" >
+            <input type="submit" accesskey="s" tabindex="7" style="background-color: rgb(124, 126, 10); border: none;" >
           </td>
           <td>
-            <input type="reset" style="background-color: rgb(124, 126, 10); border: none;">
+            <input type="reset" accesskey="R" tabindex="7" style="background-color: rgb(124, 126, 10); border: none;">
           </td>
         </tr>
         </table>
